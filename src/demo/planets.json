@@ -1,0 +1,49 @@
+[{
+  "name": "Mercury",
+  "massBase": 3.3011,
+  "massExponent": 23,
+  "radius": 2439.7,
+  "synodicPeriod": 115.88
+}, {
+  "name": "Venus",
+  "massBase": 4.8675,
+  "massExponent": 24,
+  "radius": 6051.8,
+  "synodicPeriod": 583.92
+}, {
+  "name": "Earth",
+  "massBase": 5.9723,
+  "massExponent": 24,
+  "radius": 6371.0,
+  "synodicPeriod": 583.92
+}, {
+  "name": "Mars",
+  "massBase": 6.4171,
+  "massExponent": 23,
+  "radius": 3389.5,
+  "synodicPeriod": 779.96
+}, {
+  "name": "Jupiter",
+  "massBase": 1.8982,
+  "massExponent": 27,
+  "radius": 69911,
+  "synodicPeriod": 398.88
+}, {
+  "name": "Saturn",
+  "massBase": 5.6834,
+  "massExponent": 26,
+  "radius": 58232,
+  "synodicPeriod": 378.09
+}, {
+  "name": "Uranus",
+  "massBase": 8.6810,
+  "massExponent": 25,
+  "radius": 25362,
+  "synodicPeriod": 369.66
+}, {
+  "name": "Neptune",
+  "massBase": 1.024,
+  "massExponent": 26,
+  "radius": 24622,
+  "synodicPeriod": 367.49
+}]
