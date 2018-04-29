@@ -7,4 +7,4 @@ It uses javascript to calculate the width of the actual content
 
 [Demo](http://scrawny-eye.surge.sh/)
 
-[Demo Source Code](https://github.com/ArsenyYankovsky/react-responsive-cards-table/src/demo)
+[Demo Source Code](https://github.com/ArsenyYankovsky/react-responsive-cards-table/tree/master/src/demo)
