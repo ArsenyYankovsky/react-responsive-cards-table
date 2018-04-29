@@ -1,10 +1,4 @@
 import React, { Component } from 'react'
-import styled from 'styled-components'
-
-const Container = styled.div`
-  display: flex;
-  width: ${({ isCard }) => isCard ? '100%' : ''};
-`
 
 export class ResponsiveCardTable extends Component {
   state = {
@@ -23,6 +17,12 @@ export class ResponsiveCardTable extends Component {
   componentWillUnmount() {
     window.removeEventListener('resize', this.tryTable)
   }
+
+  getContentStyles = () => ({
+    display: 'flex',
+    width: this.state.isCard ? '100%' : '',
+    ...this.props.containerStyles,
+  })
 
   tryTable = () => {
     this.setState({ isCard: false })
@@ -53,21 +53,14 @@ export class ResponsiveCardTable extends Component {
         isCard: this.state.isCard,
       }),
       {
-        innerRef: (content) => { this.content = content },
+        contentRef: (content) => { this.content = content },
       },
     )
 
     return (
-      <Container isCard={this.state.isCard} innerRef={(ref) => { this.container = ref }}>
+      <div style={this.getContentStyles()} ref={(ref) => { this.container = ref }}>
         {element}
-      </Container>
+      </div>
     )
   }
 }
-
-export const Content = styled.div`
-  display: flex;
-  flex-direction: ${({ isCard }) => isCard ? 'column' : 'row'};
-  flex-wrap: nowrap;
-  flex: ${({ isCard }) => isCard ? '1' : '1 0 auto'};
-`
