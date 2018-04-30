@@ -2,7 +2,7 @@
   "name": "react-responsive-cards-table",
   "version": "0.1.0",
   "description": "Responsive table that automatically switches between table (wide) and card (narrow) views.",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
