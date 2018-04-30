@@ -20,7 +20,7 @@ export class ResponsiveCardTable extends Component {
 
   getContentStyles = () => ({
     display: 'flex',
-    width: '100%', // this.state.isCard ? '100%' : '',
+    width: '100%',
     ...this.props.containerStyles,
   })
 
