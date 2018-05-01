@@ -1,4 +1,4 @@
-# React Responsive Card Table
+# React Responsive Cards Table
 
 ![Demo Image](https://github.com/ArsenyYankovsky/react-responsive-cards-table/blob/master/src/demo/demo.gif)
 
