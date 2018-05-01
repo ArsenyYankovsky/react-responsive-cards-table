@@ -57,6 +57,7 @@ module.exports = {
     // CRL: Updated whole block with library specific info
     path: paths.appBuild,
     filename: 'index.js',
+    libraryTarget: 'umd',
   },
   resolve: {
     // This allows you to set a fallback for where Webpack should look for modules.
