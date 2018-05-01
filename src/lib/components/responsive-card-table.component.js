@@ -21,7 +21,7 @@ export class ResponsiveCardTable extends Component {
   getContentStyles = () => ({
     display: 'flex',
     width: '100%',
-    ...this.props.containerStyles,
+    ...this.props.styles,
   })
 
   tryTable = () => {
@@ -53,6 +53,7 @@ export class ResponsiveCardTable extends Component {
         isCard: this.state.isCard,
       }),
       {
+        isCard: this.state.isCard,
         contentRef: (content) => { this.content = content },
       },
     )
