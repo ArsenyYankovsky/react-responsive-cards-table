@@ -1,9 +1,17 @@
 # React Responsive Cards Table
 
-![Demo Image](https://github.com/ArsenyYankovsky/react-responsive-cards-table/blob/master/src/demo/demo.gif)
+<a href="./package.json">
+  <img src="https://img.shields.io/npm/v/react-responsive-cards-table.svg?maxAge=3600&label=react-responsive-cards-table&colorB=007ec6">
+</a>
+
+<a href="https://unpkg.com/react-responsive-cards-table@0.2.0/dist/index.js">
+  <img src="http://img.badgesize.io/https://unpkg.com/react-responsive-cards-table@0.2.0/dist/index.js?compression=gzip&amp;label=react--responsive--cards--table">
+</a>
 
 Responsive table that automatically switches between table (wide) and card (narrow) views.
 It uses javascript to calculate the width of the actual content
+
+![Demo Image](https://github.com/ArsenyYankovsky/react-responsive-cards-table/blob/master/src/demo/demo.gif)
 
 ## Installation
 
