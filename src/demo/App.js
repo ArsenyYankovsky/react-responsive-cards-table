@@ -1,7 +1,7 @@
 import React from 'react'
 import { map } from 'lodash'
 import { ResponsiveCardTable, Content } from '../lib'
-import { Th, Td, Wrapper, Card, PlanetCard, PlanetName, CardRow } from './demo.styles'
+import { Th, Td, Wrapper, Card, PlanetCard, PlanetName, CardRow, CardWrapper } from './demo.styles'
 
 import planets from './planets.json'
 
@@ -60,9 +60,11 @@ const renderTable = (isCard) => {
 
 const App = () => (
   <Wrapper>
-    <ResponsiveCardTable>
-      {({ isCard }) => renderTable(isCard)}
-    </ResponsiveCardTable>
+    <CardWrapper>
+      <ResponsiveCardTable>
+        {({ isCard }) => renderTable(isCard)}
+      </ResponsiveCardTable>
+    </CardWrapper>
   </Wrapper>
 )
 

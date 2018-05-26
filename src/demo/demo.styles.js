@@ -19,6 +19,7 @@ const Card = styled.div`
   border-radius: 10px;
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px;
+  white-space: nowrap;
 `
 const PlanetCard = styled(Card)`
   display: flex;
@@ -36,6 +37,10 @@ const CardRow = styled.div`
   margin: 5px 0;
   align-items: center;
 `
+const CardWrapper = styled.div`
+  width: 100%;
+  max-width: 620px;
+`
 
 export {
   Th,
@@ -45,4 +50,5 @@ export {
   PlanetCard,
   PlanetName,
   CardRow,
+  CardWrapper,
 }
