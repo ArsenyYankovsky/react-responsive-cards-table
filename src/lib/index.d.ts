@@ -11,7 +11,7 @@ export interface ChildrenProps {
 }
 
 export interface ContentProps {
-    children: ((props: ChildrenProps<any>) => React.ReactNode);
+    children: ((props: ChildrenProps) => React.ReactNode);
 }
 
-export class ContentProps extends React.Component<ContentProps, any> { }
+export class Content extends React.Component<ContentProps, any> { }
