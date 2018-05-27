@@ -8,7 +8,7 @@ import planets from './planets.json'
 const renderTable = (isCard) => {
   if (isCard) {
     return (
-      <Content isCard={isCard}>
+      <Content>
         {map(planets, (planet, i) => (
           <PlanetCard key={i}>
             <PlanetName>
@@ -33,7 +33,7 @@ const renderTable = (isCard) => {
   }
 
   return (
-    <Content isCard={isCard}>
+    <Content>
       <Card>
         <table>
           <tbody>
