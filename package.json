@@ -114,5 +114,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "typings": "./src/lib/index.d.ts"
 }
